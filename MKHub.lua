@@ -544,13 +544,6 @@ end
 
 
 local Button = MobileTab:CreateButton({
-    Name = "Vehicle Fly (vfly)",
-    Callback = function()
-        loadstring(game:HttpGet("https://pastebin.com/raw/Re2gbH55"))()
-    end,
-})
-
-local Button = MobileTab:CreateButton({
     Name = "Fly",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
