@@ -302,6 +302,14 @@ local Button = MainTab:CreateButton({
  })
 
 
+local Button = MainTab:CreateButton({
+    Name = "AirHub AimBot",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/AirHub-V2/main/src/Main.lua"))()
+    end,
+ })
+
+
  local MobileTab = Window:CreateTab("Mobile", nil) -- Title, Image
  local MobileSection = MobileTab:CreateSection("Mobile")
 
