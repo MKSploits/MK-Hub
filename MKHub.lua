@@ -295,7 +295,7 @@ local Button = MainTab:CreateButton({
  })
 
 local Button = MainTab:CreateButton({
-    Name = "Fates Admin",
+    Name = "ESP and AimBot",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))();
     end,
